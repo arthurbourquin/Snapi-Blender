@@ -39,8 +39,8 @@ Point &ensp; ${P_ 0}$ &ensp; and &ensp; ${P}$ &ensp; the projected point on
 
 Vectos &emsp;
 ${
-\vec{u} = B - A 
-\quad\Rightarrow\quad
+\vec{u} = \overrightarrow{AB}
+\quad;\quad
 \vec{v} = C - A
 }$
 
