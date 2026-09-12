@@ -146,9 +146,9 @@ $$
 **In Blender**
 
 Store Vector 3D Attribute $`(\mathbf{T}, \lambda, \delta)`$ in point domain.
--$`\mathbf{T}`$&nbsp; type: index -> float
--$`\lambda`$&nbsp; type: float
--$`\delta`$&nbsp; type: float
+- index $`\mathbf{T}`$&nbsp; `int` -> `float`
+- weight $`\lambda`$&nbsp; `float`
+- weight $`\delta`$&nbsp; `float`
 
 <br>
 
@@ -156,9 +156,9 @@ Store Vector 3D Attribute $`(\mathbf{T}, \lambda, \delta)`$ in point domain.
 
 **Retrieve values from attribute**
 
-We read attribute and it gives us &nbsp;$`(\mathbf{T}, \lambda, \delta)`$
+We read attribute and it gives us &nbsp; ${(\mathbf{T}, \lambda, \delta)}$
 
-We get $`A, B, C`$&nbsp; from &nbsp;$`\mathbf{T}`$
+We get ${A, B, C}$ &nbsp; from &nbsp; ${\mathbf{T}}$
 
 Position is directly given by &nbsp;
-$`P = A + \lambda \vec{u} + \delta \vec{v}`$
+${P = A + \lambda \vec{u} + \delta \vec{v}}$
