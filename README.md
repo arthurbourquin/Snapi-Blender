@@ -2,7 +2,7 @@
 
 Blender Geometry Node tool
 
-Allow points of object A to snap on nearest surface of object B at time$t_0$
+Allow points of object A to snap on nearest surface of object B at time $`t_0`$
 and follow B mesh deformations
 (all deformations: transform, modifiers, armature, simulation, etc.)
 
@@ -34,11 +34,12 @@ and follow B mesh deformations
 Triangle &ensp;$`\mathbf{T}`$&ensp; of vertices &ensp;$`A, B, C`$&emsp;
 in triangulated mesh to snap to.
 
-Point &ensp$`P_ 0`$&ensp; and &ensp;$`P`$&ensp; the projected point on
+Point &ensp;$`P_ 0`$&ensp; and &ensp;$`P`$&ensp; the projected point on
 &ensp;$`\mathbf{T}`$&ensp; of object to snap.
 
 Vectos &emsp;
-$`\vec{u} = \overrightarrow{AB} \quad;\quad \vec{v} = \overrightarrow{AC}`$
+$`\vec{u} = \overrightarrow{AB}`$&emsp; and &emsp;
+$`\vec{v} = \overrightarrow{AC}`$
 
 ---
 
