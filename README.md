@@ -38,8 +38,8 @@ Point &ensp;$`P_ 0`$&ensp; and &ensp;$`P`$&ensp; the projected point on
 &ensp;$`\mathbf{T}`$&ensp; of object to snap.
 
 Vectos &emsp;
-$`\vec{u} = \vec{AB}`$&emsp; and &emsp;
-$`\vec{v} = \vec{AC}`$
+$`\vec{u} = B - A`$&emsp; and &emsp;
+$`\vec{v} = C - A`$
 
 ---
 
@@ -47,7 +47,7 @@ $`\vec{v} = \vec{AC}`$
 
 **Expressing point "from triangle view"**
 
-$`P = A + \lambda \vec{u} + \delta \vec{v}`$
+$`{P = A + \lambda \vec{u} + \delta \vec{v}}`$
 
 $`P - A = \lambda \vec{u} + \delta \vec{v}`$
 
