@@ -6,11 +6,6 @@ Allow points of object A to snap on nearest surface of object B at time ${t_0}$
 and follow B mesh deformations
 (all deformations: transform, modifiers, armature, simulation, etc.)
 
-**Snapi Get node tree**
-![core operation tree](img/SnapiGetTree.png)
-
-**Snapi Get node tree**
-![core operation tree](img/SnapiSetTree.png)
 
 ## How to use
 
@@ -141,6 +136,10 @@ $$
 }
 $$
 
+**Snapi Get node tree**
+![core operation tree](img/SnapiGetTree.png)
+
+
 <br>
 
 **In Blender**
@@ -162,3 +161,6 @@ We get ${A, B, C}$ &nbsp; from &nbsp; ${\mathbf{T}}$
 
 Position is directly given by &nbsp;
 ${P = A + \lambda \vec{u} + \delta \vec{v}}$
+
+**Snapi Set node tree**
+![core operation tree](img/SnapiSetTree.png)
