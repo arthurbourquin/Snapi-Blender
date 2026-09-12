@@ -51,25 +51,15 @@ $P - A = \lambda \vec{u} + \delta \vec{v}$
 
 $$
 \begin{cases}
-(P - A) \, \vec{u} =
-    (\lambda \vec{u} + \delta \vec{v}) \, \vec{u}
-    \\[.5em]
-(P - A) \, \vec{v} =
-    (\lambda \vec{u} + \delta \vec{v}) \, \vec{v}
-    \\[.5em]
+(P - A) \, \vec{u} = (\lambda \vec{u} + \delta \vec{v}) \, \vec{u} \\
+(P - A) \, \vec{v} = (\lambda \vec{u} + \delta \vec{v}) \, \vec{v} \\
 \vec{w} = P - A
 \end{cases}
 \quad\Rightarrow\quad
 \begin{cases}
-\vec{w} \, \vec{u} =
-    \lambda \, \vec{u} \, \vec{u} +
-    \delta  \, \vec{v} \, \vec{u}
-    \\[.5em]
-\vec{w} \, \vec{v} =
-    \lambda \, \vec{u} \, \vec{v} +
-    \delta  \, \vec{v} \, \vec{v}
+\vec{w} \, \vec{u} = \lambda \, \vec{u} \, \vec{u} + \delta \, \vec{v} \, \vec{u} \\
+\vec{w} \, \vec{v} = \lambda \, \vec{u} \, \vec{v} + \delta \, \vec{v} \, \vec{v}
 \end{cases}
-\quad\Rightarrow\quad
 $$
 
 **Express equations in a matrice multiplication form**
