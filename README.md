@@ -31,18 +31,16 @@ and follow B mesh deformations
 
 ## Maths
 
-Triangle &ensp; ${\mathbf{T}}$ &ensp; of vertices &ensp; ${A, B, C}$ &emsp;
+Triangle &emsp; ${\mathbf{T}}$ &emsp; of vertices &emsp; ${A, B, C}$ &emsp;
 in triangulated mesh to snap to.
 
-Point &ensp; ${P_ 0}$ &ensp; and &ensp; ${P}$ &ensp; the projected point on
-&ensp; ${\mathbf{T}}$ &ensp; of object to snap.
+Point &emsp; ${P_ 0}$ &emsp; and &emsp; ${P}$ &emsp; the projected point on
+&emsp; ${\mathbf{T}}$ &emsp; of object to snap.
 
 Vectos &emsp;
-${
-\vec{u} = \overrightarrow{AB}
-\quad;\quad
-\vec{v} = C - A
-}$
+${\vec{u} = \overrightarrow{AB}}$
+&emsp; and &emsp;
+${\vec{v} = \overrightarrow{AC}}$
 
 ---
 
@@ -50,9 +48,9 @@ ${
 
 **Expressing point "from triangle view"**
 
-${ P = A + \lambda \vec{u} + \delta \vec{v} }$
+${P = A + \lambda \vec{u} + \delta \vec{v}}$
 
-${ P - A = \lambda \vec{u} + \delta \vec{v} }$
+${P - A = \lambda \vec{u} + \delta \vec{v}}$
 
 $$
 \begin{cases}
