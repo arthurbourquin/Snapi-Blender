@@ -55,7 +55,7 @@ ${P - A = \lambda \vec{u} + \delta \vec{v}}$
 $$
 \begin{cases}
 (P - A) \, \vec{u} =
-    (\lambda \vec{u} + \delta \vec{v}) \, \vec{u} \\[1em]
+    (\lambda \vec{u} + \delta \vec{v}) \, \vec{u} \\
 (P - A) \, \vec{v} =
     (\lambda \vec{u} + \delta \vec{v}) \, \vec{v} \\
 \vec{w} = P - A
@@ -69,13 +69,11 @@ $$
     \lambda \, \vec{u} \, \vec{v} +
     \delta  \, \vec{v} \, \vec{v}
 \end{cases}
-\quad\Rightarrow\quad
 $$
 
 **Express equations in a matrice multiplication form**
 
-$$
-\mathbf{M} =
+${\mathbf{M} =
 \begin{bmatrix}
     \vec{u} \vec{u} & \vec{v} \vec{u} \\
     \vec{u} \vec{v} & \vec{v} \vec{v}
@@ -83,25 +81,20 @@ $$
 \begin{bmatrix}
     \vec{u} \vec{u} & \vec{u} \vec{v} \\
     \vec{u} \vec{v} & \vec{v} \vec{v}
-\end{bmatrix} =
-$$
+\end{bmatrix}}$
 &nbsp;;&nbsp;
-$$
-\mathbf{b} =
+${\mathbf{b} =
 \begin{bmatrix}
 \lambda \\ \delta
-\end{bmatrix}
-$`$$
+\end{bmatrix}}$
 &nbsp;;&nbsp;
-$$
-\mathbf{s} =
+${\mathbf{s} =
 \begin{bmatrix}
 \vec{w} \vec{u} \\
 \vec{w} \vec{v}
-\end{bmatrix}
-$$
+\end{bmatrix}}$
 &nbsp;;&nbsp;
-$`\mathbf{s} = \mathbf{M} \mathbf{b}`$
+${\mathbf{s} = \mathbf{M} \mathbf{b}}$
 
 **Applying Cramer rule**
 
