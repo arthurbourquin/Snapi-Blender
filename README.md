@@ -55,7 +55,7 @@ ${P - A = \lambda \vec{u} + \delta \vec{v}}$
 $$
 \begin{cases}
 (P - A) \, \vec{u} =
-    (\lambda \vec{u} + \delta \vec{v}) \, \vec{u} \\
+    (\lambda \vec{u} + \delta \vec{v}) \, \vec{u} \\[1em]
 (P - A) \, \vec{v} =
     (\lambda \vec{u} + \delta \vec{v}) \, \vec{v} \\
 \vec{w} = P - A
