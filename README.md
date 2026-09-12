@@ -6,8 +6,13 @@ Allow points of object A to snap on nearest surface of object B at time $t_0$
 and follow B mesh deformations
 (all deformations: transform, modifiers, armature, simulation, etc.)
 
+**Snapi Get node tree**
+![core operation tree](img/SnapiGetTree.png)
 
-## Pipeline
+**Snapi Get node tree**
+![core operation tree](img/SnapiSetTree.png)
+
+## How to use
 
 - Create an attribute on the mesh
     - name: "snapi" (example)
@@ -26,7 +31,7 @@ and follow B mesh deformations
 
 ## Maths
 
-Triangle &ensp;$ \mathbf{T} $&ensp; of vertices &ensp;$ A, B, C $&emsp;
+Triangle &ensp;\( \mathbf{T} \)&ensp; of vertices &ensp;\( A, B, C \)&emsp;
 in triangulated mesh to snap to.
 
 Point &ensp;$ P_0 $&ensp; and &ensp;$ P $&ensp; the projected point on
@@ -156,6 +161,15 @@ Store Vector 3D Attribute $ (\mathbf{T}, \lambda, \delta) $ in point domain.
 - $ \lambda $ &emsp; type: float
 - $ \delta $ &emsp; type: float
 
+<br>
 
 ## Snapi Set
 
+**Retrieve values from attribute**
+
+We read attribute and it gives us &emsp;$ (\mathbf{T}, \lambda, \delta) $
+
+We get $ A, B, C $&emsp; from &emsp;$ \mathbf{T} $
+
+Position is directly given by &emsp;
+$ P = A + \lambda \vec{u} + \delta \vec{v} $
