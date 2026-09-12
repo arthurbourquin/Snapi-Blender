@@ -38,11 +38,7 @@ Point &ensp$`P_ 0`$&ensp; and &ensp;$`P`$&ensp; the projected point on
 &ensp;$`\mathbf{T}`$&ensp; of object to snap.
 
 Vectos &emsp;
-$`
-\vec{u} = \overrightarrow{AB}
-\quad;\quad
-\vec{v} = \overrightarrow{AC}
-`$
+$`\vec{u} = \overrightarrow{AB} \quad;\quad \vec{v} = \overrightarrow{AC}`$
 
 ---
 
@@ -54,7 +50,7 @@ $`P = A + \lambda \vec{u} + \delta \vec{v}`$
 
 $`P - A = \lambda \vec{u} + \delta \vec{v}`$
 
-$`
+$$
 \begin{cases}
 (P - A) \, \vec{u} =
     (\lambda \vec{u} + \delta \vec{v}) \, \vec{u}
@@ -75,11 +71,11 @@ $`
     \delta  \, \vec{v} \, \vec{v}
 \end{cases}
 \quad\Rightarrow\quad
-`$
+$$
 
 **Express equations in a matrice multiplication form**
 
-$`
+$$
 \mathbf{M} =
 \begin{bmatrix}
     \vec{u} \vec{u} & \vec{v} \vec{u} \\
@@ -89,26 +85,24 @@ $`
     \vec{u} \vec{u} & \vec{u} \vec{v} \\
     \vec{u} \vec{v} & \vec{v} \vec{v}
 \end{bmatrix} =
-`$
+$$
 &emsp;;&emsp;
-$`
+$$
 \mathbf{b} =
 \begin{bmatrix}
 \lambda \\ \delta
 \end{bmatrix}
-`$
+$`$$
 &emsp;;&emsp;
-$`
+$$
 \mathbf{s} =
 \begin{bmatrix}
 \vec{w} \vec{u} \\
 \vec{w} \vec{v}
 \end{bmatrix}
-`$
+$$
 &emsp;;&emsp;
-$`
-\mathbf{s} = \mathbf{M} \mathbf{b}
-`$
+$`\mathbf{s} = \mathbf{M} \mathbf{b}`$
 
 **Applying Cramer rule**
 
