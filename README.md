@@ -38,8 +38,8 @@ Point &ensp;$`P_ 0`$&ensp; and &ensp;$`P`$&ensp; the projected point on
 &ensp;$`\mathbf{T}`$&ensp; of object to snap.
 
 Vectos &emsp;
-$`\vec{u} = \overrightarrow{AB}`$&emsp; and &emsp;
-$`\vec{v} = \overrightarrow{AC}`$
+$`\vec{u} = \vec{AB}`$&emsp; and &emsp;
+$`\vec{v} = \vec{AC}`$
 
 ---
 
