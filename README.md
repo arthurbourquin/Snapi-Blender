@@ -73,7 +73,9 @@ $$
 
 **Express equations in a matrice multiplication form**
 
-${\mathbf{M} =
+
+$$
+\mathbf{M} =
 \begin{bmatrix}
     \vec{u} \vec{u} & \vec{v} \vec{u} \\
     \vec{u} \vec{v} & \vec{v} \vec{v}
@@ -81,20 +83,21 @@ ${\mathbf{M} =
 \begin{bmatrix}
     \vec{u} \vec{u} & \vec{u} \vec{v} \\
     \vec{u} \vec{v} & \vec{v} \vec{v}
-\end{bmatrix}}$
-&nbsp;;&nbsp;
-${\mathbf{b} =
+\end{bmatrix}
+\quad;\quad
+\mathbf{b} =
 \begin{bmatrix}
 \lambda \\ \delta
-\end{bmatrix}}$
-&nbsp;;&nbsp;
-${\mathbf{s} =
+\end{bmatrix}
+\quad;\quad
+\mathbf{s} =
 \begin{bmatrix}
 \vec{w} \vec{u} \\
 \vec{w} \vec{v}
-\end{bmatrix}}$
-&nbsp;;&nbsp;
-${\mathbf{s} = \mathbf{M} \mathbf{b}}$
+\end{bmatrix}
+\quad;\quad
+\mathbf{s} = \mathbf{M} \mathbf{b}
+$$
 
 **Applying Cramer rule**
 
