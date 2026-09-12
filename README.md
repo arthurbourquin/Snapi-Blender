@@ -49,7 +49,7 @@ $`\vec{v} = C - A`$
 
 $`{P = A + \lambda \vec{u} + \delta \vec{v}}`$
 
-$`P - A = \lambda \vec{u} + \delta \vec{v}`$
+${P - A = \lambda \vec{u} + \delta \vec{v}}$
 
 $$
 \begin{cases}
