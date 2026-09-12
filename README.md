@@ -31,15 +31,15 @@ and follow B mesh deformations
 
 ## Maths
 
-Triangle &emsp; ${\mathbf{T}}$ &emsp; of vertices &emsp; ${A, B, C}$ &emsp;
+Triangle &nbsp; ${\mathbf{T}}$ &nbsp; of vertices &nbsp; ${A, B, C}$ &nbsp;
 in triangulated mesh to snap to.
 
-Point &emsp; ${P_ 0}$ &emsp; and &emsp; ${P}$ &emsp; the projected point on
-&emsp; ${\mathbf{T}}$ &emsp; of object to snap.
+Point &nbsp; ${P_ 0}$ &nbsp; and &nbsp; ${P}$ &nbsp; the projected point on
+&nbsp; ${\mathbf{T}}$ &nbsp; of object to snap.
 
-Vectos &emsp;
+Vectos &nbsp;
 ${\vec{u} = \overrightarrow{AB}}$
-&emsp; and &emsp;
+&nbsp; and &nbsp;
 ${\vec{v} = \overrightarrow{AC}}$
 
 ---
@@ -88,14 +88,14 @@ $$
     \vec{u} \vec{v} & \vec{v} \vec{v}
 \end{bmatrix} =
 $$
-&emsp;;&emsp;
+&nbsp;;&nbsp;
 $$
 \mathbf{b} =
 \begin{bmatrix}
 \lambda \\ \delta
 \end{bmatrix}
 $`$$
-&emsp;;&emsp;
+&nbsp;;&nbsp;
 $$
 \mathbf{s} =
 \begin{bmatrix}
@@ -103,7 +103,7 @@ $$
 \vec{w} \vec{v}
 \end{bmatrix}
 $$
-&emsp;;&emsp;
+&nbsp;;&nbsp;
 $`\mathbf{s} = \mathbf{M} \mathbf{b}`$
 
 **Applying Cramer rule**
@@ -153,9 +153,9 @@ $$
 **In Blender**
 
 Store Vector 3D Attribute $`(\mathbf{T}, \lambda, \delta)`$ in point domain.
--$`\mathbf{T}`$&emsp; type: index -> float
--$`\lambda`$&emsp; type: float
--$`\delta`$&emsp; type: float
+-$`\mathbf{T}`$&nbsp; type: index -> float
+-$`\lambda`$&nbsp; type: float
+-$`\delta`$&nbsp; type: float
 
 <br>
 
@@ -163,9 +163,9 @@ Store Vector 3D Attribute $`(\mathbf{T}, \lambda, \delta)`$ in point domain.
 
 **Retrieve values from attribute**
 
-We read attribute and it gives us &emsp;$`(\mathbf{T}, \lambda, \delta)`$
+We read attribute and it gives us &nbsp;$`(\mathbf{T}, \lambda, \delta)`$
 
-We get $`A, B, C`$&emsp; from &emsp;$`\mathbf{T}`$
+We get $`A, B, C`$&nbsp; from &nbsp;$`\mathbf{T}`$
 
-Position is directly given by &emsp;
+Position is directly given by &nbsp;
 $`P = A + \lambda \vec{u} + \delta \vec{v}`$
