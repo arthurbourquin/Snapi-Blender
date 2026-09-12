@@ -14,11 +14,14 @@ and follow B mesh deformations
     - domain: points
     - type: vector
 - Add **Snapi Get** Geometry Node Modifier and feed it with
-    - attribute name ("snapi" in this example)
+    - Attribute name ("snapi" in this example)
+        - to write in
     - Objet to snap to
 - Apply modifier
 - Add **Snapi Set** Geometry Node Modifier and feed it with
-    - attribute name ("snapi" in this example)
+    - Attribute name ("snapi" in this example)
+        - to read from
+    - Objet to snap to
 
 
 ## Maths
