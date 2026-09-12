@@ -2,7 +2,7 @@
 
 Blender Geometry Node tool
 
-Allow points of object A to snap on nearest surface of object B at time $t_0$
+Allow points of object A to snap on nearest surface of object B at time$t_0$
 and follow B mesh deformations
 (all deformations: transform, modifiers, armature, simulation, etc.)
 
@@ -31,11 +31,11 @@ and follow B mesh deformations
 
 ## Maths
 
-Triangle &ensp;$ \mathbf{T} $&ensp; of vertices &ensp;$ A, B, C $&emsp;
+Triangle &ensp;$\mathbf{T}$&ensp; of vertices &ensp;$A, B, C$&emsp;
 in triangulated mesh to snap to.
 
-Point &ensp;$ P_0 $&ensp; and &ensp;$ P $&ensp; the projected point on
-&ensp;$ \mathbf{T} $&ensp; of object to snap.
+Point &ensp;$P_0$&ensp; and &ensp;$P$&ensp; the projected point on
+&ensp;$\mathbf{T}$&ensp; of object to snap.
 
 Vectos &emsp;
 $
@@ -50,9 +50,9 @@ $
 
 **Expressing point "from triangle view"**
 
-$ P = A + \lambda \vec{u} + \delta \vec{v} $
+$P = A + \lambda \vec{u} + \delta \vec{v}$
 
-$ P - A = \lambda \vec{u} + \delta \vec{v} $
+$P - A = \lambda \vec{u} + \delta \vec{v}$
 
 $
 \begin{cases}
@@ -156,10 +156,10 @@ $$
 
 **In Blender**
 
-Store Vector 3D Attribute $ (\mathbf{T}, \lambda, \delta) $ in point domain.
-- $ \mathbf{T} $&emsp; type: index -> float
-- $ \lambda $ &emsp; type: float
-- $ \delta $ &emsp; type: float
+Store Vector 3D Attribute $(\mathbf{T}, \lambda, \delta)$ in point domain.
+-$\mathbf{T}$&emsp; type: index -> float
+-$\lambda$&emsp; type: float
+-$\delta$&emsp; type: float
 
 <br>
 
@@ -167,9 +167,9 @@ Store Vector 3D Attribute $ (\mathbf{T}, \lambda, \delta) $ in point domain.
 
 **Retrieve values from attribute**
 
-We read attribute and it gives us &emsp;$ (\mathbf{T}, \lambda, \delta) $
+We read attribute and it gives us &emsp;$(\mathbf{T}, \lambda, \delta)$
 
-We get $ A, B, C $&emsp; from &emsp;$ \mathbf{T} $
+We get$A, B, C$&emsp; from &emsp;$\mathbf{T}$
 
 Position is directly given by &emsp;
-$ P = A + \lambda \vec{u} + \delta \vec{v} $
+$P = A + \lambda \vec{u} + \delta \vec{v}$
